@@ -1,0 +1,43 @@
+/* This is for the CSS_font.html file */
+.thr{
+  font-size: 50px;
+  font-weight: bold;
+  color: lime;
+  background-color: gray;
+}
+h3{
+  font-size: 75px;
+  color: red;
+  font-family: monospace;
+}
+
+/* This is for the CSS_link.html */
+
+a:link{
+  text-decoration: underline;
+  color: Red;
+}
+a:visited{
+  text-decoration: none;
+  color: Black;
+
+}
+a:hover{
+
+  color: green;
+}
+a:active{
+  color: lime;
+  text-decoration: line-through;
+}
+
+/* This is for the CSS_color.html */
+h1{
+  color: red;
+}
+h2{
+  color: gray;
+}
+p{
+  color: blue;
+}
