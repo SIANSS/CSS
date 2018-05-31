@@ -1,0 +1,59 @@
+<html>
+<style>
+  /*Form STYLEs*/
+  input[type=text]{
+    border-radius: 20px;
+    padding: 50px 100px 50px 100px;
+    margin: 20px;
+    cursor: pointer;
+    background-color: gray;
+    color: Lime;
+  }
+  input[type=text]:hover{
+    border-radius: 8px;
+    background-color: white;
+    color: black;
+
+  }
+  input[type=submit]:hover{
+    background-color: black;
+    border-radius: 8px;
+    color: Red;
+  }
+  .FRM_fset{
+    border: 1px solid black;
+    margin: 150px;
+    padding: 20px;
+  }
+  #country{
+    background-color: Black;
+    border: 2px dotted black;
+    border-color: Red;
+    color: Lime;
+  }
+</style>
+  <head>
+    <title></title>
+  </head>
+  <body>
+    <div class="">
+      <form class="FRM_Application" action="index.html" method="post">
+        <fieldset class="FRM_fset">
+          <legend>Sign-Up</legend>
+        <label for="fname">First Name :</label>
+        <input type="text" id="fname"><br>
+
+        <label for="lname">Last Name  :</label>
+        <input type="text" name="lname"><br>
+          <label for="country"> Country </label>
+          <select id="country" name="country">
+            <option value="australia"> Australia </option>
+            <option value="india"> India </option>
+            <option value="paris"> Paris </option>
+          </select>
+        <input type="submit" name="" value="Submit">
+      </fieldset>
+      </form>
+    </div>
+  </body>
+</html>
