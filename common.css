@@ -41,3 +41,13 @@ h2{
 p{
   color: blue;
 }
+
+/* this is for the CSS_List.html */
+.circleyork{
+  list-style-position: inside;
+  list-style-image: url(cm.jpeg);
+  color: Red;
+}
+.numreak{
+  list-style-type:upper-roman;
+  list-style-position: inside;
