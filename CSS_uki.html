@@ -1,15 +1,36 @@
 <html>
 <style>
 ul{
-  list-style: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  background-color: gray;
+  list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
 }
-.dropper{
+li, a{
+  color: white;
   float: left;
+  display: block;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
 }
+a:hover{
+  background-color: red;
+  color: Lime;
+}
+.drop:hover .dropdown-content{
+  display: block;
+}
+.dropped{
+  display: none;
+  position: absolute;
+  background-color: #fff000;
+}
+
+
+
+
 
 </style>
   <head>
@@ -17,22 +38,14 @@ ul{
   </head>
   <body>
     <ul>
-      <li class="dropper">Uki 01</li>
+      <li><a href=""> Uki 01</a></li>
+      <li><a href=""> Uki 02</a></li>
+      <li class="dropper"><a href="javascript:void(0)" class="drop"> Uki 03</a></li>
       <div class="dropped">
-        <a>Minerva</a>
+        <a href="#">Sian</a>
+        <a href="#">Arul</a>
+        <a href="#">Sian</a>
       </div>
-
-      <li class="dropper">Uki 02</li>
-      <div class="dropped">
-        <a>Ram</a>
-        <a>Paranthan</a>
-      </div>
-      <li class="dropper">Uki 03</li>
-      <div class="dropped">
-        <a>arul</a>
-        <a>sian</a>
-      </div>
-
     </ul>
   </body>
 </html>
