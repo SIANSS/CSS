@@ -1,0 +1,29 @@
+.box_h1{
+  border: 30px solid green;
+  margin: 100px;
+}
+.box_h1:hover{
+  border: 30px dotted lightgreen;
+  margin: 100px;
+}
+.Normal_box{
+  border: 15px solid blue;
+  margin: 25px 25px 25px 25px;
+  height: 300px;
+}
+.Normal_box:hover{
+  border: 15px dotted blue;
+}
+.big_box{
+  text-align: center;
+  width: 1100px;
+  height: 350px;
+  margin: 100px 30px;
+  border: 20px solid Red;
+  padding: 40px;
+}
+.big_box:hover{
+  width: 1000px;
+  /* margin: 150px 100px; */
+  border: 50px dotted maroon;
+}

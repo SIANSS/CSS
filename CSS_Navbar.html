@@ -1,0 +1,58 @@
+<html>
+<style>
+ul{
+  list-style-type: none;
+}
+li a{
+  border:1px solid black;
+  background-color: Red;
+  display:block;
+  float:left;
+  padding:50px;
+  margin:0;
+  text-decoration: none;
+  color: black;
+  font-size: 20px;
+  font-family: sans-serif;
+  font-weight: bolder;
+}
+a:hover{
+  background-color: black;
+  color: Red;
+  padding:30px;
+}
+.dropdn li{
+  position: relative;
+  display: inline-block;
+}
+.dropdn-cont a{
+    position: relative;
+    width: 70px;
+    border:1px solid black;
+    background-color: Red;
+    display:none;
+    color: black;
+}
+.dropdn:hover .dropdn-cont a{
+  display: inline-block;
+}
+</style>
+  <head>
+    <title></title>
+  </head>
+  <body>
+    <ul>
+      <li><a href=""> Uki 01</a></li>
+      <li><a href=""> Uki 02</a></li>
+      <div class="dropdn">
+      <li ><a href=""> Uki 03</a>
+
+        <div class="dropdn-cont">
+          <a href="">Hi</a><br>
+          <a href="">Hello</a>
+        </div>
+        </li>
+      </div>
+    </ul>
+  </body>
+</html>

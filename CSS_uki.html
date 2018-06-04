@@ -2,35 +2,24 @@
 <style>
 ul{
   list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #333;
+  background-color: Red;
 }
-li, a{
-  color: white;
-  float: left;
+li a{
+  background-color: Red;
   display: block;
-  text-align: center;
-  padding: 14px 16px;
+  float: left;
+  padding: 20px;
   text-decoration: none;
+  color: Lime;
+  font-size: 20px;
+  font-family: sans-serif;
+  font-weight: bolder;
 }
 a:hover{
-  background-color: red;
-  color: Lime;
+  background-color: black;
+  color: Red;
+  padding:30px;
 }
-.drop:hover .dropdown-content{
-  display: block;
-}
-.dropped{
-  display: none;
-  position: absolute;
-  background-color: #fff000;
-}
-
-
-
-
 
 </style>
   <head>
@@ -40,12 +29,7 @@ a:hover{
     <ul>
       <li><a href=""> Uki 01</a></li>
       <li><a href=""> Uki 02</a></li>
-      <li class="dropper"><a href="javascript:void(0)" class="drop"> Uki 03</a></li>
-      <div class="dropped">
-        <a href="#">Sian</a>
-        <a href="#">Arul</a>
-        <a href="#">Sian</a>
-      </div>
+      <li><a href=""> Uki 03</a></li>
     </ul>
   </body>
 </html>
