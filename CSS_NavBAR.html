@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<style>
+.Nav-bar{
+}
+.navbar-item{
+  text-align: center;
+  list-style-type: none;
+  background-color: red;
+  color: black;
+  display: block;
+  float: left;
+  padding: 20px;
+  text-decoration: none;
+  position: relative;
+}
+.navbar-item:hover{
+  background-color: black;
+  color: red;
+}
+.dropdown-content{
+  /* display: none; */
+  display: block;
+}
+.cont{
+
+  background-color: green;
+  color: black;
+
+  text-decoration: none;
+
+}
+.cont:hover{
+  background-color: black;
+  color: red;
+}
+.drp:hover .dropdown-content{
+  /* display: block; */
+}
+
+</style>
+  <head>
+    <title>Navigation bar</title>
+  </head>
+  <body>
+    <ul class="Nav-bar">
+      <li class="navbar-item">Home</li>
+      <li class="navbar-item">About</li>
+      <li class="navbar-item">Events</li>
+      <li class="navbar-item drp">Contact us</li>
+        <div class="dropdown-content">
+
+          <a class="cont" href="#">phone</a>
+          <a class="cont" href="#">phone</a>
+          <a class="cont" href="#">Phone</a>
+
+        </div>
+
+    </ul>
+
+  </body>
+</html>
